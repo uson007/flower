@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import CardFlower from "./components/card/CardFlower";
+// import CardProducts from "./components/card/CardProducts";
+// import BouquetFlower from "./components/flowers/BouquetFlower";
+// import CatalogFlowers from "./components/flowers/CatalogFlowers";
+// import ChooseFlower from "./components/flowers/ChooseFlower";
+// import DeliveryFlower from "./components/flowers/DeliveryFlower";
+// import Explanation from "./components/flowers/Explanation";
+// import FloristMan from "./components/flowers/FloristMan";
+// import Footer from "./components/footer/Footer";
+import Header from "./components/navbar/Header";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <div className="App">
+    <Header />
+    {/* <ChooseFlower />
+    <CardFlower />
+    <Explanation />
+    <CatalogFlowers />
+    <CardProducts />
+    <DeliveryFlower />
+    <BouquetFlower />
+    <FloristMan />
+    <Footer /> */}
+  </div>;
 }
 
 export default App;

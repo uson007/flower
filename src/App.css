@@ -1,38 +1,383 @@
-.App {
-  text-align: center;
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 30px;
+  width: 1382px;
+  height: 80px;
+  background: #fcefe4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flowerImage {
+  position: absolute;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.containerParagraph {
+  padding: 330px 150px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 17px;
+}
+
+.paragraph1 {
+  font-size: 20px;
+}
+
+.paragraph2 {
+  font-size: 60px;
+}
+
+.btn {
+  width: 235px;
+  height: 64px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
   color: white;
+  font-weight: 600;
+  background: #d75370;
+  margin-top: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn2 {
+  width: 125px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  background: #d75370;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chooseFlower {
+  width: 1382px;
+  height: 700px;
+}
+
+.del {
+  font-size: 15px;
+}
+
+.container2 {
+  width: 280px;
+  height: 364px;
+  background: white;
+  padding: 7px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 120px;
+}
+
+.cardFlowers {
+  background: #fcefe4;
+  height: 600px;
+  padding: 0 110px;
+  display: flex;
+  gap: 12px;
+}
+
+.flower1 {
+  margin-left: 500px;
+  margin-top: 70px;
+}
+
+.text {
+  position: absolute;
+  position: relative;
+  width: 440px;
+  height: 180px;
+  background: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 37px;
+  top: -350px;
+  left: 230px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.explanation {
+  background: #fcefe4;
+  padding: 0 150px;
+}
+
+.flowerBeauty2 {
+  margin-top: -170px;
+}
+
+.text2 {
+  position: absolute;
+  position: relative;
+  width: 350px;
+  height: 150px;
+  background: white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 35px;
+  line-height: 27px;
+  top: -110px;
+  left: 450px;
+}
+
+.flowerBeauty3 {
+  margin-left: 500px;
+  margin-top: -100px;
+}
+
+.text3 {
+  position: absolute;
+  position: relative;
+  width: 400px;
+  height: 180px;
+  background: white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 45px;
+  line-height: 26px;
+  top: -320px;
+  left: 200px;
+}
+
+.containerFlowers {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px 95px;
+  gap: 20px;
+}
+
+.container3 {
+  width: 280px;
+  height: 364px;
+  background: white;
+  padding: 7px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.katalog {
+  margin-left: 523px;
+  color: #8e8d6f;
+  cursor: pointer;
+}
+
+.text4 {
+  position: absolute;
+  width: 280px;
+  padding: 40px;
+  padding-left: 110px;
+  color: white;
+  height: 100px;
+  backdrop-filter: blur(30px);
+  top: 3610px;
+  cursor: pointer;
+}
+
+.text5 {
+  position: absolute;
+  width: 280px;
+  padding: 40px;
+  padding-left: 110px;
+  color: white;
+  height: 100px;
+  backdrop-filter: blur(30px);
+  top: 3992px;
+  cursor: pointer;
+}
+
+.text6 {
+  position: absolute;
+  width: 200px;
+  padding: 40px;
+  padding-top: 93px;
+  padding-left: 67px;
+  color: white;
+  height: 211px;
+  backdrop-filter: blur(30px);
+  top: 3351px;
+  left: 775px;
+  cursor: pointer;
+}
+
+.text7 {
+  position: absolute;
+  width: 200px;
+  padding: 40px;
+  padding-top: 123px;
+  padding-left: 67px;
+  color: white;
+  height: 260px;
+  backdrop-filter: blur(30px);
+  top: 3592.3px;
+  left: 400px;
+  cursor: pointer;
+}
+
+.text8 {
+  position: absolute;
+  width: 200px;
+  padding: 40px;
+  padding-top: 93px;
+  padding-left: 77px;
+  color: white;
+  height: 210px;
+  backdrop-filter: blur(30px);
+  top: 3883px;
+  left: 775px;
+  cursor: pointer;
+}
+
+.text9 {
+  position: absolute;
+  width: 280px;
+  padding: 40px;
+  padding-left: 50px;
+  color: white;
+  height: 100px;
+  backdrop-filter: blur(30px);
+  top: 3610px;
+  cursor: pointer;
+}
+
+.text10 {
+  position: absolute;
+  width: 280px;
+  padding: 40px;
+  padding-left: 60px;
+  color: white;
+  height: 100px;
+  backdrop-filter: blur(30px);
+  top: 3992px;
+  cursor: pointer;
+}
+
+.delviri {
+  position: absolute;
+  top: 5160px;
+  font-size: 56px;
+}
+
+.text11 {
+  position: absolute;
+  top: 5350px;
+  font-size: 27px;
+  left: 430px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.containerInputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  gap: 30px;
+}
+
+.flower10 {
+  backdrop-filter: blur(30px);
+  position: absolute;
+  top: 6960px;
+  width: 280px;
+  height: 80px;
+  padding-top: 30px;
+  padding-left: 106px;
+  color: white;
+  cursor: pointer;
+}
+
+.flower11 {
+  backdrop-filter: blur(30px);
+  position: absolute;
+  top: 6960px;
+  width: 280px;
+  height: 80px;
+  padding-top: 30px;
+  padding-left: 75px;
+  color: white;
+  cursor: pointer;
+}
+
+.flower12 {
+  backdrop-filter: blur(30px);
+  position: absolute;
+  top: 6960px;
+  width: 280px;
+  height: 80px;
+  padding-top: 30px;
+  padding-left: 97px;
+  color: white;
+  cursor: pointer;
+}
+
+.flower13 {
+  backdrop-filter: blur(30px);
+  position: absolute;
+  top: 6960px;
+  width: 280px;
+  height: 80px;
+  padding-top: 30px;
+  padding-left: 66px;
+  color: white;
+  cursor: pointer;
+}
+
+.flower14 {
+  backdrop-filter: blur(30px);
+  position: absolute;
+  top: 7348px;
+  width: 280px;
+  height: 80px;
+  padding-top: 30px;
+  padding-left: 110px;
+  color: white;
+  cursor: pointer;
+}
+
+.flower15 {
+  backdrop-filter: blur(30px);
+  position: absolute;
+  top: 7348px;
+  width: 280px;
+  height: 80px;
+  padding-top: 30px;
+  padding-left: 110px;
+  color: white;
+  cursor: pointer;
+}
+
+.flower16 {
+  backdrop-filter: blur(30px);
+  position: absolute;
+  top: 7348px;
+  width: 280px;
+  height: 80px;
+  padding-top: 30px;
+  padding-left: 110px;
+  color: white;
+  cursor: pointer;
+}
+
+.flower17 {
+  backdrop-filter: blur(30px);
+  position: absolute;
+  top: 7348px;
+  width: 280px;
+  height: 80px;
+  padding-top: 30px;
+  padding-left: 63px;
+  color: white;
+  cursor: pointer;
 }
